@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: orangered;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+.whole-card{
+    width: 100%;
+    height: 60vh;
+    background-color: blue;
+
+    .top-house-card{
+        width: 100%;
+        height: 50%;
+        background-color: brown;
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .middle-house-card{
+        width: 100%;
+        height: 25%;
+        background-color: blueviolet;
+
+        form{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            input{
+                background-color: red;
+                width: 90%;
+                
+            
+            }
+
+            button{
+                padding: 0.5rem 1.5rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: green;
+                border-radius: 10px;
+                cursor: pointer;
+
+            }
+
+            
+        }
+    }
+    .bottom-house-card{
+        width: 100%;
+        height: 25%;
+        background-color: pink;
+       
+        
+
+       
+    }
+}
